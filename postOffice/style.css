@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#sec1{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+#moreDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p{
+    font-weight: bold;
+    color: #5C5E66;
+}
+
+#sec2{
+    background-color:#575A85 ;
+}
+#sec3{
+    background-color: black;
+    
+}
+#card{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.items{
+    background-color:#3C3E5B ;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  color: white;
+  /* border-bottom-right-radius: 20px; */
+  border-radius: 20px;
+}
+#moreInfo{
+padding: 30px;
+}
+#card{
+padding: 10px;
+}
+input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 3rem;
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 2px solid#d9e7ff;
+    font-size: 20px;
+}
